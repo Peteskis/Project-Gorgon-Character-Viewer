@@ -1,4 +1,4 @@
-# 👉  **[Launch Viewer here](https://github.com/Peteskis/Project-Gorgon-Character-Viewer/index.html)** 
+# 👉  **[Launch Viewer here]( https://peteskis.github.io/Project-Gorgon-Character-Viewer/index.html)** 
 
 Character Viewer Overview
 
