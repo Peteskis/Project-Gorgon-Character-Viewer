@@ -1,7 +1,7 @@
 
 V1.2 beta now up with a colour picker and themes. +The ability to do a multi character search for items that will list the specified search details and on what character
 
-(Fixed Storage Search overlapping - not aligning + Table header now scrolls with Storage cards.)
+(Fixed Storage Search overlapping - not aligning + Table header now scrolls with Storage card.)
 
 # 👉  **[Launch Viewer here]( https://peteskis.github.io/Project-Gorgon-Character-Viewer/index.html)** 
 
