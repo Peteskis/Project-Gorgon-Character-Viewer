@@ -8,24 +8,67 @@ V1.2 beta now up with a colour picker and themes. +The ability to do a multi cha
 
 Character Viewer Overview
 
-The PG Character Viewer is a lightweight, single-file HTML application designed to view, manage, and compare tabletop RPG character data stored in JSON format. It allows players and GMs to quickly load characters and their associated item files in a clean, readable interface without requiring a server, build process, or external dependencies.
 
-The viewer supports loading multiple characters from a folder, automatically linking character sheets with their corresponding item inventories. Data is presented in clearly organized sections, making it easy to review stats, abilities, equipment, and metadata at a glance.
+# Features
 
-Built with portability in mind, the Character Viewer runs entirely in the browser and can be shared or archived as a single HTML file. Folder-based loading allows the app to remember previously selected data locations between sessions (with browser permission), making repeated use fast and convenient.
+* **Local-first, single-file HTML app**
 
-Key Features
+  * Runs entirely in the browser
+  * No server, no install, no build step
+  * Nothing uploads anywhere (read-only local access)
 
-Single-file HTML app (no install, no server required)
+* **Folder-based JSON loading**
 
-Loads character and item data from JSON files
+  * Load character and item JSON files from a folder
+  * Folder location is remembered between sessions (with browser permission)
+  * Re-prompts for access if permission expires
 
-Supports multiple characters in one folder
+* **Multi-character support**
 
-Automatically associates character files with item inventories
+  * Load multiple characters at once
+  * Storage can be viewed for:
 
-Clean, readable UI optimized for quick reference
+    * Current character
+    * Selected characters (multi-select)
+    * All loaded characters
+  * Storage results show which character owns each item when viewing multiple characters
 
-Remembers selected data folder between browser sessions (Chrome / Edge)
+* **Search & filtering**
 
-Safe, read-only access to local files
+  * Global search filters the current view without breaking controls
+  * Storage tab includes:
+
+    * Scope selector
+    * Vault selector
+    * Storage-specific search
+    * Quick filters
+
+* **Table usability**
+
+  * Sticky table headers (column headers stay visible while scrolling)
+  * Clickable column sorting (A→Z / Z→A, low→high / high→low)
+  * Row density toggle:
+
+    * Compact
+    * Comfortable
+    * Spacious
+  * Density preference is saved locally
+
+* **Scroll-to-top control**
+
+  * Appears automatically when scrolling long tabs
+  * Click **↑** to scroll to the top of the current tab
+  * **Shift + click** scrolls to the bottom
+
+* **Theme customizer**
+
+  * Built-in theme panel with presets and color pickers
+  * Live preview of theme changes
+  * Theme settings saved in local storage
+  * Key UI areas locked for readability (always white background / black text):
+
+    * Top header and toolbar
+    * Left loader panel
+    * Storage control strip
+    * Important titles and labels (e.g. *Storage & Items*, slot pills, character metada
+
