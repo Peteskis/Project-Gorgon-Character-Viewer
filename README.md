@@ -1,8 +1,5 @@
-*Added Column sorting (click headers) - *Row density toggle top right of screen - *Sticky “scroll to top” button (Bottom right once you start scrolling). Still V1.2
+V1.3 added *Added Column sorting (click headers) - *Row density toggle top right of screen - *Sticky “scroll to top” button (Bottom right once you start scrolling) - *per-tab column resizing
 
-V1.2 beta now up with a colour picker and themes. +The ability to do a multi character search for items that will list the specified search details and on what character
-
-(Fixed Storage Search overlapping - not aligning + Table header now scrolls with Storage card.)
 
 # 👉  **[Launch Viewer here]( https://peteskis.github.io/Project-Gorgon-Character-Viewer/index.html)** 
 
