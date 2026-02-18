@@ -1,3 +1,4 @@
+*Added Column sorting (click headers) - *Row density toggle top right of screen - *Sticky “scroll to top” button (Bottom right once you start scrolling).
 
 V1.2 beta now up with a colour picker and themes. +The ability to do a multi character search for items that will list the specified search details and on what character
 
