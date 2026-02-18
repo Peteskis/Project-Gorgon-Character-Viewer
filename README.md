@@ -69,3 +69,7 @@ Character Viewer Overview
     * Storage control strip
     * Important titles and labels (e.g. *Storage & Items*, slot pills, character metada
 
+
+   <img width="1902" height="872" alt="Char viewer" src="https://github.com/user-attachments/assets/b6747c54-4e29-491d-8ecd-a6f5ba1d8b0f" />
+
+
